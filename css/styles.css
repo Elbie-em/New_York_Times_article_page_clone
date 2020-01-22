@@ -3,23 +3,18 @@ body {
 }
 
 article{
-    height: 400px;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .article_text{
+    padding-top:20px;
     float: left;
     width: 80%;
-    height: 400px;
-    background-color: burlywood;
 }
 
 aside{
     float: right;
     width: 20%;
-    height: 400px;
-    background-color: cornflowerblue;
 }
 
 main{
@@ -83,6 +78,7 @@ nav {
   margin-top: 10px;
 }
 
+
 .nav_logo{
   height: 33px;
   width: auto;
@@ -120,4 +116,31 @@ nav {
 
 .photo_author{
     font-size: 11px;
+}
+
+.author_name{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.date{
+    float: left;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.icon_position{
+    float: right;
+    margin-right: 4px;
+}
+
+.main_body_text{
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.6em;
+}
+
+.text_bold{
+    font-weight: 700;
 }
