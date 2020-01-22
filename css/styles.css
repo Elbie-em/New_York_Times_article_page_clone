@@ -178,3 +178,19 @@ table a {
 table a:hover {
     text-decoration: underline;
 }
+
+.inner_section_a{
+    position: relative;
+    top: 20px;
+    clear: both;
+    text-align: left;
+}
+
+.inner_section_a h3{
+    font-size:20px;
+}
+
+.inner_section_a_caption{
+    line-height: 1.6em;
+    color: gray;
+}
