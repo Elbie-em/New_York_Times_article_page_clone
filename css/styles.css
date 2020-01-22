@@ -1,0 +1,28 @@
+body {
+  background: #FFFFFF;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E2E2E2;
+  width: 100vw;
+  height: 30px;
+  margin-top: 15px;
+  z-index: 1;
+}
+
+.nav_link {
+  font-size: 14.25px;
+}
+
+.nav_left{
+    float: left;
+    padding: 20px;
+    
+}
+
+.nav_padding_a{
+    margin-right: 16px;
+}
