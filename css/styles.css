@@ -8,8 +8,7 @@ nav {
   background-color: #FFFFFF;
   border-bottom: 1px solid #E2E2E2;
   width: 100vw;
-  height: 30px;
-  margin-top: 15px;
+  height: 45px;
   z-index: 1;
 }
 
@@ -17,12 +16,36 @@ nav {
   font-size: 14.25px;
 }
 
-.nav_left{
-    float: left;
-    padding: 20px;
-    
+.nav_left {
+  float: left;
+  padding: 20px;
+  width: auto;   
 }
 
-.nav_padding_a{
-    margin-right: 16px;
+.nav_margin_a{
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.nav_right {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav_button {
+  position: relative;
+  bottom: 15px;
+  height: 32px;
+  width: auto;
+  background: #316891;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.nav_logo {
+  height: 33px;
+  width: auto;
+  margin-right: 250px;
+  margin-top: 10px;
 }
