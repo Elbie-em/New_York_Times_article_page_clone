@@ -2,6 +2,14 @@ body {
   background: #FFFFFF;
 }
 
+a,
+button,
+i,
+.nav_link,
+.nav_logo {
+  cursor: pointer;
+}
+
 article{
     width: 100%;
 }
@@ -9,12 +17,12 @@ article{
 .article_text{
     padding-top:20px;
     float: left;
-    width: 80%;
+    width: 70%;
 }
 
 aside{
     float: right;
-    width: 20%;
+    width: 30%;
 }
 
 main{
@@ -24,7 +32,7 @@ main{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #316891;
+    
 }
 
 nav {
