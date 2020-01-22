@@ -17,12 +17,13 @@ article{
 .article_text{
     padding-top:20px;
     float: left;
-    width: 70%;
+    width: 80%;
 }
 
 aside{
+    margin-top: 65px;
     float: right;
-    width: 30%;
+    width: 20%;
 }
 
 main{
@@ -43,6 +44,7 @@ nav {
   border-bottom: 1px solid #E2E2E2;
   width: 100vw;
   height: 55px;
+  z-index: 1;
   overflow: auto;
 }
 
@@ -111,6 +113,7 @@ nav {
 .photo{
     width: 1200px;
     height: auto;
+    
 }
 
 .photo_text{
@@ -140,7 +143,7 @@ nav {
 
 .icon_position{
     float: right;
-    margin-right: 4px;
+    margin-right: 8px;
 }
 
 .main_body_text{
@@ -151,4 +154,27 @@ nav {
 
 .text_bold{
     font-weight: 700;
+}
+
+table {
+    padding: 10px;
+}
+
+tr {
+    text-align: left;
+    border-bottom: 1px solid gray;
+    
+}
+
+.aside_link{
+    padding: 10px; 
+}
+
+table a {
+    text-decoration: none;
+    color: #454545;
+}
+
+table a:hover {
+    text-decoration: underline;
 }
