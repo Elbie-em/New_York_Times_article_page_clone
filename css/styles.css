@@ -231,6 +231,7 @@ table a:hover {
 
 .inner_article {
     width: 900px;
+    height: 720px;
     margin-left: 30px;
 }
 
@@ -263,4 +264,16 @@ table a:hover {
 .inner_article_img{
     width: 210px;
     height: 160px;
+}
+
+.inner_article_author{
+    clear: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer_line{
+    margin-bottom: 20px;
+    width: 50px; 
+    float: left;
 }
