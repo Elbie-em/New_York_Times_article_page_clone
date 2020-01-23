@@ -222,3 +222,7 @@ table a:hover {
     font-size: 12px;
     margin: 16px 0 16px 0;
 }
+
+.nav_button_article{
+    padding: 0 60px 0 60px;
+}
