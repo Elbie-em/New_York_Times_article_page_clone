@@ -1,5 +1,5 @@
 body {
-  background: #FFFFFF;
+  background: #fff;
   margin-bottom: 30px;
 }
 
@@ -17,7 +17,7 @@ article {
 
 .article_text {
   margin-left: -20px;
-  padding-top:20px;
+  padding-top: 20px;
   padding-right: 20px;
   float: left;
   width: 80%;
@@ -31,19 +31,18 @@ aside {
 
 main {
   margin-top: 50px;
-  padding: 0px 200px 0px 200px;
+  padding: 0 200px 0 200px;
   max-width: 900px;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto;  
 }
 
 nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #E2E2E2;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
   width: 100vw;
   height: 55px;
   z-index: 1;
@@ -68,7 +67,7 @@ nav {
 
 .nav_right {
   position: relative;
-  bottom:30px;
+  bottom: 30px;
   width: auto;
   height: auto;
   float: right;
@@ -80,7 +79,7 @@ nav {
   width: auto;
   background: #316891;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #fff;
   border: #666 1px solid;
   border-radius: 5px;
 }
@@ -90,7 +89,6 @@ nav {
   width: auto;
   margin-top: 10px;
 }
-
 
 .nav_logo {
   height: 33px;
@@ -117,15 +115,14 @@ nav {
 .article_title {
   text-align: left;
   font-size: 40px;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: georgia,'times new roman',times,serif;
   font-style: italic;
   font-weight: bolder;
 }
 
 .photo {
   width: 1200px;
-  height: auto;
-  
+  height: auto; 
 }
 
 .photo_inner {
@@ -183,7 +180,6 @@ table {
 tr {
   text-align: left;
   border-bottom: 1px solid gray;
-  
 }
 
 .aside_link {
@@ -209,7 +205,7 @@ table a:hover {
 }
 
 .inner_section_a h3 {
-  font-size:20px;
+  font-size: 20px;
   margin-left: 30px;
 }
 
@@ -252,8 +248,7 @@ table a:hover {
 .inner_article_sec_a {
   float: left;
   width: 210px;
-  height: 640px;
-  
+  height: 640px; 
 }
 
 .inner_article_sec_b {
@@ -293,13 +288,13 @@ table a:hover {
 }
 
 .extras_section_b {
-  float:right;
-  width:30%;
+  float: right;
+  width: 30%;
   height: 720px;
 }
 
 .extra_new_a {
-  float:left;
+  float: left;
   width: 260px;
   padding: 6px;
 }
