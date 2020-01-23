@@ -365,7 +365,7 @@ table a:hover {
   margin-bottom: 15px;
 }
 
-.clear{
+.clear {
   clear: both;
 }
 
@@ -381,14 +381,24 @@ table a:hover {
   overflow: hidden;
   background-color: #fff;
   z-index: 1;
-  animation: expand 1s linear;
 }
 
 .bottom_footer:hover {
   cursor: pointer;
+  animation-name: expand;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
 }
 
-.expand_option{
-    float: right;
-    margin-right: 100px;
+@keyframes expand {
+  100% {
+    height: 100px;
+  }
+}
+
+.expand_option {
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  bottom: 15px;
 }
