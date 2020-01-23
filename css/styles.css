@@ -15,20 +15,22 @@ article{
 }
 
 .article_text{
+    margin-left: -20px;
     padding-top:20px;
+    padding-right: 20px;
     float: left;
     width: 80%;
 }
 
 aside{
-    margin-top: 65px;
+    margin-top: 465px;
     float: right;
     width: 20%;
 }
 
 main{
     margin-top: 50px;
-    text-align: center;
+    /*text-align: center;*/
     padding: 0px 200px 0px 200px;
     max-width: 900px;
     margin-left: auto;
@@ -79,6 +81,7 @@ nav {
   background: #316891;
   font-weight: 700;
   color: #FFFFFF;
+  border: #666 1px solid;
   border-radius: 5px;
 }
 
@@ -96,7 +99,7 @@ nav {
 
 .article_header{
     padding: 30px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .article_photo{
@@ -105,15 +108,29 @@ nav {
     right: 150px;
 }
 
+.article_photo_inner{
+    margin-left: -75px;
+    width: 900px;
+    right: 150px;
+}
+
 .article_title{
     text-align: left;
     font-size: 40px;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .photo{
     width: 1200px;
     height: auto;
     
+}
+
+.photo_inner{
+    width: 900px;
+    height: auto;
 }
 
 .photo_text{
@@ -144,6 +161,9 @@ nav {
 .icon_position{
     float: right;
     margin-right: 8px;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .main_body_text{
@@ -184,6 +204,7 @@ table a:hover {
     top: 20px;
     clear: both;
     text-align: left;
+    right: 150px;
 }
 
 .inner_section_a h3{
@@ -193,4 +214,11 @@ table a:hover {
 .inner_section_a_caption{
     line-height: 1.6em;
     color: gray;
+}
+
+.footer_article_text{
+    text-align: left;
+    color: #666;
+    font-size: 12px;
+    margin: 16px 0 16px 0;
 }
