@@ -34,7 +34,7 @@ main {
   padding: 0 200px 0 200px;
   max-width: 900px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }
 
 nav {
@@ -115,7 +115,7 @@ nav {
 .article_title {
   text-align: left;
   font-size: 40px;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-style: italic;
   font-weight: bolder;
 }
@@ -183,17 +183,7 @@ tr {
 }
 
 .aside_link {
-  padding: 10px; 
-}
-
-table a, 
-.extras_section_b a {
-  text-decoration: none;
-  color: #454545;
-}
-
-table a:hover {
-  text-decoration: underline;
+  padding: 10px;
 }
 
 .inner_section_a {
@@ -248,7 +238,7 @@ table a:hover {
 .inner_article_sec_a {
   float: left;
   width: 210px;
-  height: 640px; 
+  height: 640px;
 }
 
 .inner_article_sec_b {
@@ -270,7 +260,7 @@ table a:hover {
 
 .footer_line {
   margin-bottom: 20px;
-  width: 50px; 
+  width: 50px;
   float: left;
 }
 
@@ -318,10 +308,6 @@ table a:hover {
   border-bottom: 1px solid #454545;
 }
 
-.link_new a:hover {
-  text-decoration: underline;
-}
-
 footer {
   position: relative;
   top: 150px;
@@ -344,4 +330,18 @@ footer a:hover {
 .empty_section {
   height: 60px;
   width: 100%;
+}
+
+table a,
+.extras_section_b a {
+  text-decoration: none;
+  color: #454545;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+.link_new a:hover {
+  text-decoration: underline;
 }
