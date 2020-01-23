@@ -3,7 +3,7 @@
 
 You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 
-![screenshot](../assets/img_screen.png)
+![screenshot](./assets/img_screen.png)
 
 ## Built With
 
