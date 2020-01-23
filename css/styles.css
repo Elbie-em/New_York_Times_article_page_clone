@@ -123,6 +123,8 @@ nav {
 .photo {
   width: 1200px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .photo_inner {
@@ -295,7 +297,13 @@ tr {
 }
 
 .title_new {
+  text-decoration: none;
   font-weight: bold;
+  color: black;
+}
+
+.title_new:hover {
+  text-decoration: underline;
 }
 
 .date_new {
@@ -311,6 +319,8 @@ tr {
 .link_new {
   border-top: 1px solid #454545;
   border-bottom: 1px solid #454545;
+  width: 250px;
+  margin-left: 15px;
 }
 
 footer {
@@ -348,4 +358,37 @@ table a:hover {
 
 .link_new a:hover {
   text-decoration: underline;
+}
+
+.extras_heading {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.clear{
+  clear: both;
+}
+
+.bottom_footer {
+  padding-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 1;
+  animation: expand 1s linear;
+}
+
+.bottom_footer:hover {
+  cursor: pointer;
+}
+
+.expand_option{
+    float: right;
+    margin-right: 100px;
 }
