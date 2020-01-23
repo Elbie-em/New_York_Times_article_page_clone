@@ -1,5 +1,6 @@
 body {
   background: #FFFFFF;
+  margin-bottom: 30px;
 }
 
 a,
@@ -30,7 +31,6 @@ aside{
 
 main{
     margin-top: 50px;
-    /*text-align: center;*/
     padding: 0px 200px 0px 200px;
     max-width: 900px;
     margin-left: auto;
@@ -327,4 +327,28 @@ table a:hover {
 
 .link_new a:hover{
     text-decoration: underline;
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    bottom: 100px;
+    font-size: 14px;
+    text-align: center;
+    clear: both;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 4px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.empty_section{
+    height: 60px;
+    width: 100%;
 }
