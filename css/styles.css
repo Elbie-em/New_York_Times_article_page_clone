@@ -357,6 +357,11 @@ table a:hover {
   text-decoration: underline;
 }
 
+.list_index li a {
+  text-decoration: none;
+  color: black;
+}
+
 .link_new a:hover {
   text-decoration: underline;
 }
@@ -437,11 +442,6 @@ table a:hover {
   float: left;
   width: 198px;
   line-height: 1.6em;
-}
-
-.list_index li a {
-  text-decoration: none;
-  color: black;
 }
 
 .list_index li a:hover {
