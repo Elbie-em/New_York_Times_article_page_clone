@@ -47,11 +47,6 @@ Feel free to check the (https://github.com/Elbie-em/New_York_Times_article_page_
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
