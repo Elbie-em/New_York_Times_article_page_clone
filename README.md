@@ -13,7 +13,7 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Elbie-em/New_York_Times_article_page_clone/b7bf7d6ddf8a7a91f32cb6cc1b5e062dba547290/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Elbie-em/New_York_Times_article_page_clone/54a718398f51ddd36012680d362bf4003a763090/index.html)
 
 
 ## Getting Started
