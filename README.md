@@ -1,5 +1,5 @@
 # New_York_Times_article_page_clone
-> Project based on a clone of the New_York_Times_artice_page
+> Project based on a clone of the New York Times article page
 
 You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 
