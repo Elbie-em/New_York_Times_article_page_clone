@@ -1,7 +1,7 @@
 # New_York_Times_article_page_clone
 > Project based on a clone of the New York Times article page
 
-You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+> You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
 ![screenshot](./assets/img_screen.PNG)
 
@@ -18,8 +18,8 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Getting Started
 
-**This is a static page and was made using  CSS & HTML, you don't need .**
-**anything to start up this page, is already published in a public repository so you can check the final result. For a better understanding of the code read about FlexBox.**
+**This is a static page made using CSS & HTML, you don't need .**
+**anything to start up this page, it is already published in a public repository so you can see the final result. For a better understanding of the code read about Floats and the Box model.**
 
 
 ## Authors
